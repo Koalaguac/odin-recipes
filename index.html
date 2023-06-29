@@ -3,16 +3,42 @@
     <head>
         <meta charset="utf-8">
         <title>Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <h1>Odin Recipes</h1>
-        <strong>Do not repeat these Recipes!!</strong> They are not complete because I didn't want to copy the whole things off of allrecipes. 
-        If you want to make them, please visit <a href="https://www.allrecipes.com/">allrecipes.com</a> for the full recipes!
+        <div class="note">
+            <strong>Do not use these Recipes!!</strong> They are not complete because I didn't want to copy the whole things off of allrecipes. 
+            If you want to make them, please visit <a href="https://www.allrecipes.com/">allrecipes.com</a> for the full recipes!
+        </div>
         <p></p>
-        <a href="./recipes/lasagna.html">Lasagna Recipe</a>
-        <a href="./recipes/chicken-tenders.html">Chicken Tenders Recipe</a>
-        <a href="./recipes/chips.html">Chips Recipe</a>
+        <div class="recipes">
+            <div class="lasagna">
+                <a href="./recipes/lasagna.html" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">
+                    <img src="https://www.allrecipes.com/thmb/X7IeQCUE-RGdXAz0XgE6aAFFOZ8=/282x188/filters:no_upscale():max_bytes(150000):strip_icc():focal(2108x1819:2110x1821):format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
+                    alt="Picture of Lasagna">
+                    <p>Lasagna Recipe</p>
+                </a>
+                
+            </div>
+            <div class="chicken-tenders">   
+                <a href="./recipes/chicken-tenders.html" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">
+                    <img src="https://www.allrecipes.com/thmb/AUF3K467SLV1enmOswt30HoObMY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7509380-air-fryer-chicken-tenders-MID-M7004348-071-4x3-044762e6ecb84af890599cfebe6a913b.jpg"
+                    alt="Picture of Chicken Tenders">
+                    <p>Chicken Tenders Recipe</p>
+                </a>
+                
+            </div>
+            <div class="chips">
+                <a href="./recipes/chips.html" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">
+                    <img src="https://www.allrecipes.com/thmb/bwshTtvlMdqoggQkboDi9lPM7x4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7510177-air-fryer-sweet-potato-chips-GOLDMAN-R311171-4x3-1404-b5aeddb980624fa7bddf35a8a6b6445c.jpg"
+                    alt="Picture of Chips">
+                    <p>Chips Recipe</p>
+                </a>
+                
+            </div>
+        </div>
     </body>
 
 </html>
